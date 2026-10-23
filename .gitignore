@@ -1,0 +1,24 @@
+# Secrets and private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Virtual machines and installation media
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
